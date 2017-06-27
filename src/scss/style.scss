@@ -13,8 +13,6 @@ ul{
 	}
 }
 
-// @media (min-width: 1200px) { ... }
-
 .title{
 	background-color: $bg-orange ;
 	margin-bottom: 5px;
@@ -22,18 +20,6 @@ ul{
 		color: $color-white;
 	}
 }
-
-// @for $i from 1 through 4
-//  .bg-purple-·{$i} {
-//  	@if $i < 4 { 
-//  		background-color: $bg-purple;
-// 		color: $color-white;  
-// 	}else {			
-// 	 	background-color: $bg-orange;
-// 		color: $color-white;
-// 	}
-//  }
-
 
 .bg-grape{
 	background-color: $bg-purple;
