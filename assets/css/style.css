@@ -1,0 +1,22 @@
+ul {
+  list-style: none;
+  padding-left: 0;
+  width: 100%; }
+  ul li {
+    padding: 5px;
+    width: 100%; }
+
+.title {
+  background-color: #EBB85D;
+  margin-bottom: 5px; }
+  .title h1, .title p {
+    color: #ffffff; }
+
+.bg-grape {
+  background-color: #3E3F40;
+  color: #ffffff;
+  margin-bottom: 5px; }
+  .bg-grape h2, .bg-grape p {
+    padding: 5px 5px 0 5px; }
+
+/*# sourceMappingURL=style.css.map */

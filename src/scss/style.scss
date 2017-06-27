@@ -1,0 +1,45 @@
+$color-white: #ffffff;
+$bg-orange: #EBB85D;
+$bg-purple: #3E3F40;
+
+ul{
+	list-style: none;
+	padding-left: 0;
+	width: 100%;
+
+	li{
+	padding: 5px;
+	width: 100%;
+	}
+}
+
+// @media (min-width: 1200px) { ... }
+
+.title{
+	background-color: $bg-orange ;
+	margin-bottom: 5px;
+	h1, p{
+		color: $color-white;
+	}
+}
+
+// @for $i from 1 through 4
+//  .bg-purple-·{$i} {
+//  	@if $i < 4 { 
+//  		background-color: $bg-purple;
+// 		color: $color-white;  
+// 	}else {			
+// 	 	background-color: $bg-orange;
+// 		color: $color-white;
+// 	}
+//  }
+
+
+.bg-grape{
+	background-color: $bg-purple;
+	color: $color-white;
+	margin-bottom: 5px;
+	h2, p{
+		padding: 5px 5px 0 5px;
+	}
+}
